@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+       <com.example.sangenan.myapplication.drawDog
+           android:id="@+id/donkey"
+           android:layout_width="match_parent"
+           android:layout_height="150dp" />
+       <com.example.sangenan.myapplication.drawBall
+           android:id="@+id/ball"
+           android:layout_width="match_parent"
+           android:layout_height="150dp" />
+       <ImageView
+           android:src="@drawable/icon_pull_2_refresh_star"
+           android:layout_width="match_parent"
+           android:layout_height="100dp" />
+       <com.example.sangenan.myapplication.drawPlanet
+           android:id="@+id/planet"
+           android:layout_width="match_parent"
+           android:layout_height="150dp" />
+
+
+
+</RelativeLayout>
